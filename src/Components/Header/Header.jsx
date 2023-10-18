@@ -11,7 +11,7 @@ const Header = () => {
                     <nav className="flex flex-col md:flex-col lg:flex-row items-center gap-5 justify-between">
                         <div className="flex">
                             
-                            <img className="w-60 h-20 " src={logo} alt="" />
+                            <img className="w-52 h-16 " src={logo} alt="" />
                         </div>
 
                         {/* This is banner text */}

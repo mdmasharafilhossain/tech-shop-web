@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "brand_name": "Apple",
+      "img_brand": "https://i.ibb.co/2jRdc0g/apple-logo-transparent.png",
+      "customer_img": "https://i.ibb.co/g4zJ7q7/comment-people-1.png",
+      "description": "We needed IT services for our company. I have never seen such a professional and committed company. Thank you for everything.",
+      "customer_name": "Adam"
+    },
+    {
+      "id": 2,
+      "brand_name": "Samsung",
+      "img_brand": "https://i.ibb.co/pvTR4my/samsung.jpg",
+      "customer_img": "https://i.ibb.co/swXD40B/comment-people-4.png",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "customer_name": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "brand_name": "LMN Ltd",
+      "img_brand": "https://example.com/img/lmn_ltd_logo.png",
+      "customer_img": "https://example.com/img/customer3.jpg",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "customer_name": "Michael Johnson"
+    },
+    {
+      "id": 4,
+      "brand_name": "PQR Inc",
+      "img_brand": "https://example.com/img/pqr_inc_logo.png",
+      "customer_img": "https://example.com/img/customer4.jpg",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "customer_name": "Susan Lee"
+    },
+    {
+      "id": 5,
+      "brand_name": "EFG Enterprises",
+      "img_brand": "https://example.com/img/efg_enterprises_logo.png",
+      "customer_img": "https://example.com/img/customer5.jpg",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "customer_name": "Robert Davis"
+    },
+    {
+      "id": 6,
+      "brand_name": "RST Group",
+      "img_brand": "https://example.com/img/rst_group_logo.png",
+      "customer_img": "https://example.com/img/customer6.jpg",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "customer_name": "Maria Rodriguez"
+    }
+  ]
+  

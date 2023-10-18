@@ -10,42 +10,38 @@
     {
       "id": 2,
       "brand_name": "Samsung",
-      "img_brand": "https://i.ibb.co/pvTR4my/samsung.jpg",
+      "img_brand": "https://i.ibb.co/hBh86k4/sam.png",
       "customer_img": "https://i.ibb.co/swXD40B/comment-people-4.png",
-      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "customer_name": "Jane Smith"
+      "description": "We worked for the virtualization of the servers in our office. They provided very fast and professional service. Thanks.",
+      "customer_name": "Elizabeth"
     },
     {
       "id": 3,
-      "brand_name": "LMN Ltd",
-      "img_brand": "https://example.com/img/lmn_ltd_logo.png",
-      "customer_img": "https://example.com/img/customer3.jpg",
-      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "customer_name": "Michael Johnson"
+      "brand_name": "Sony",
+      "img_brand": "https://i.ibb.co/qMgHQPC/so.png",
+      "customer_img": "https://i.ibb.co/Cs2cLjg/comment-people-5.png",
+      "description": "We needed IT services for our company. They did a super job. A friendly and professional team. Thank you for everything.",
+      "customer_name": "Robert"
     },
     {
       "id": 4,
-      "brand_name": "PQR Inc",
-      "img_brand": "https://example.com/img/pqr_inc_logo.png",
-      "customer_img": "https://example.com/img/customer4.jpg",
-      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "customer_name": "Susan Lee"
+      "brand_name": "Google",
+      "img_brand": "https://i.ibb.co/T4p1nYq/goo.png",
+      "customer_img": "https://i.ibb.co/Z8M4SWM/comment-people-2.png",
+      "description": "They quickly completed the network security of our institution. After-service support continued. Thank you very much.",
+      "customer_name": "Mahi"
     },
     {
       "id": 5,
-      "brand_name": "EFG Enterprises",
-      "img_brand": "https://example.com/img/efg_enterprises_logo.png",
-      "customer_img": "https://example.com/img/customer5.jpg",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "customer_name": "Robert Davis"
+      "brand_name": "Intel",
+      "img_brand": "https://i.ibb.co/F7P8S6V/in.png"
+      
     },
     {
       "id": 6,
-      "brand_name": "RST Group",
-      "img_brand": "https://example.com/img/rst_group_logo.png",
-      "customer_img": "https://example.com/img/customer6.jpg",
-      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-      "customer_name": "Maria Rodriguez"
+      "brand_name": "Huawei",
+      "img_brand": "https://i.ibb.co/VWFwcxk/hhhh.jpg"
+     
     }
   ]
   

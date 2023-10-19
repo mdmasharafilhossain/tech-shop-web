@@ -6,7 +6,7 @@ import logo from "../../assets/image_processing20210209-19545-1svrkst.gif"
 const Header = () => {
     return (
         <div>
-             <div className="shadow-xl bg-white z-50  pb-5 fixed top-0 left-0 right-0 border">
+             <div className="shadow-xl bg-green-100 z-50  pb-5 fixed top-0 left-0 right-0 border">
                 <div className="container mx-auto mt-10 ">
                     <nav className="flex flex-col md:flex-col lg:flex-row items-center gap-5 justify-between">
                         <div className="flex">

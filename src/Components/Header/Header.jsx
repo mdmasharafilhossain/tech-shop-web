@@ -1,9 +1,18 @@
 import { Link, NavLink } from "react-router-dom";
 
 import logo from "../../assets/image_processing20210209-19545-1svrkst.gif"
+import { useContext } from "react";
+import { AuthContext } from "../AuthProviders/AuthProviders";
 
 
 const Header = () => {
+    const { user, LogOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        LogOut()
+            .then()
+            .catch()
+    }
     return (
         <div>
              <div className="shadow-xl bg-green-100 z-50  pb-5 fixed top-0 left-0 right-0 border">
@@ -72,15 +81,15 @@ const Header = () => {
                             </ul>
 
                         </div>
-                        {/* <div className="flex">
+                        <div className="flex">
                             <div>
-                                <h2 className="text-xl font-bold text-green-600">{user?.displayName
+                                <h2 className="mt-4 text-xl font-bold text-green-600">{user?.displayName
 
                                 }</h2>
                             </div>
                             <div>
                                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                                    <div className="w-10 rounded-full">
+                                    <div className="w-10 rounded-full mt-3">
                                         <img src={user?.photoURL} />
                                     </div>
                                 </label>
@@ -88,15 +97,17 @@ const Header = () => {
                             <div>
                                 {
                                     user ?
-                                        <button onClick={handleLogOut} className="bg-green-600 text-gray-200 font-bold text-2xl px-5 py-3 rounded-xl">Sign Out</button>
+                                        <button onClick={handleLogOut} className=" text-green-600 border-4 border-green-500
+                                        hover:bg-green-50  font-bold text-2xl px-5 py-3 rounded-xl">Sign Out</button>
 
                                         :
-                                        <Link to="/login"><button className="bg-green-600 text-gray-200 font-bold text-2xl px-5 py-3 rounded-xl">Sign In</button></Link>
+                                        <Link to="/login"><button className=" text-green-600 border-4 border-green-500
+                                        hover:bg-green-50 font-bold text-2xl px-5 py-3 rounded-xl">Sign In</button></Link>
                                 }
                             </div>
-                        </div> */}
+                        </div>
                         <div>
-                            <button>login</button>
+                           
                         </div>
                     </nav>
 

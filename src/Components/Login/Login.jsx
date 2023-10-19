@@ -31,8 +31,8 @@ const Login = () => {
       }
     return (
         <div>
-           <div>
-            <div className="mt-[500px] md:mt-60 lg:mt-60 text-center ">
+           <div className="bg-green-100 py-[150px]">
+            <div className="mt-[500px] md:mt-60 lg:mt-60 text-center border bg-green-200 py-5">
                 <h2 className="text-4xl font-bold text-green-600">Please login</h2>
 
                 <form onSubmit={handleLogin} className="md:w-3/4 lg:w-1/2 mx-auto">

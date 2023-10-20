@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "brand_name": "Apple",
+      "BrandName": "Apple",
       "img_brand": "https://i.ibb.co/2jRdc0g/apple-logo-transparent.png",
       "customer_img": "https://i.ibb.co/g4zJ7q7/comment-people-1.png",
       "description": "We needed IT services for our company. I have never seen such a professional and committed company. Thank you for everything.",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "brand_name": "Samsung",
+      "BrandName": "Samsung",
       "img_brand": "https://i.ibb.co/hBh86k4/sam.png",
       "customer_img": "https://i.ibb.co/swXD40B/comment-people-4.png",
       "description": "We worked for the virtualization of the servers in our office. They provided very fast and professional service. Thanks.",
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "brand_name": "Sony",
+      "BrandName": "Sony",
       "img_brand": "https://i.ibb.co/qMgHQPC/so.png",
       "customer_img": "https://i.ibb.co/Cs2cLjg/comment-people-5.png",
       "description": "We needed IT services for our company. They did a super job. A friendly and professional team. Thank you for everything.",
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "brand_name": "Google",
+      "BrandName": "Google",
       "img_brand": "https://i.ibb.co/T4p1nYq/goo.png",
       "customer_img": "https://i.ibb.co/Z8M4SWM/comment-people-2.png",
       "description": "They quickly completed the network security of our institution. After-service support continued. Thank you very much.",
@@ -33,13 +33,13 @@
     },
     {
       "id": 5,
-      "brand_name": "Huawei",
+      "BrandName": "Huawei",
       "img_brand": "https://i.ibb.co/VWFwcxk/hhhh.jpg"
       
     },
     {
       "id": 6,
-      "brand_name": "Intel",
+      "BrandName": "Intel",
       
       "img_brand": "https://i.ibb.co/F7P8S6V/in.png"
      

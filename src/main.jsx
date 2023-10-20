@@ -28,10 +28,11 @@ const router = createBrowserRouter([
         element:<Home></Home>
       },
       {
-            path:"/card/:id",
+            path:"/card/:BrandName",
             element:<Brands></Brands>,
             errorElement:<NotFond></NotFond>,
-            loader:()=>fetch('/slider.json')
+            loader:()=>fetch('http://localhost:5000/pro')
+            
       },
       {
         path:"/login",

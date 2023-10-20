@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "img1": "https://i.ibb.co/gmvJHxp/apple1.png",
+        "img2": "https://i.ibb.co/JyX2HpM/apple2.png",
+        "img3": "https://i.ibb.co/jTcds86/apple3.png"
+      },
+    {
+        "id": 2,
+        "img1": "https://i.ibb.co/vdwR8wN/sams1.jpg",
+        "img2": "https://i.ibb.co/8rkXBLB/sams2.webp",
+        "img3": "https://i.ibb.co/TtGKHbC/sams3.png"
+      },
+    {
+        "id": 3,
+        "img1": "https://i.ibb.co/DfQ9gsx/sony1.jpg",
+        "img2": "https://i.ibb.co/8XZz5sk/sony2.jpg",
+        "img3": "https://i.ibb.co/Fsr7Rhz/sony3.jpg"
+      },
+    {
+        "id": 4,
+        "img1": "https://i.ibb.co/7Cdfkzt/goo1.jpg",
+        "img2": "https://i.ibb.co/pjmHLvF/goo2.jpg",
+        "img3": "https://i.ibb.co/zfDJ9x2/goo3.jpg"
+      },
+    {
+        "id": 5,
+        "img1": "https://i.ibb.co/qpPd4WX/hu1.png",
+        "img2": "https://i.ibb.co/NSG5sKs/huu2.jpg",
+        "img3": "https://i.ibb.co/Wn4wCCs/hu3.jpg"
+      }
+
+
+
+
+]

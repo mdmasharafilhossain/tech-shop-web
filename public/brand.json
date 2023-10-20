@@ -33,14 +33,15 @@
     },
     {
       "id": 5,
-      "brand_name": "Intel",
-      "img_brand": "https://i.ibb.co/F7P8S6V/in.png"
+      "brand_name": "Huawei",
+      "img_brand": "https://i.ibb.co/VWFwcxk/hhhh.jpg"
       
     },
     {
       "id": 6,
-      "brand_name": "Huawei",
-      "img_brand": "https://i.ibb.co/VWFwcxk/hhhh.jpg"
+      "brand_name": "Intel",
+      
+      "img_brand": "https://i.ibb.co/F7P8S6V/in.png"
      
     }
   ]

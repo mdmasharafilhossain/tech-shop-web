@@ -14,6 +14,8 @@ import AddProducts from './Components/AddProduct/AddProducts';
 import MyCarts from './Components/MyCart/MyCarts';
 import Register from './Components/Register/Register';
 import AuthProviders from './Components/AuthProviders/AuthProviders';
+import Brands from './Components/Brand/Brands';
+import NotFond from './Components/NotFound/NotFond';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,12 @@ const router = createBrowserRouter([
       {
         path:"/",
         element:<Home></Home>
+      },
+      {
+            path:"/card/:id",
+            element:<Brands></Brands>,
+            errorElement:<NotFond></NotFond>,
+            loader:()=>fetch('/slider.json')
       },
       {
         path:"/login",

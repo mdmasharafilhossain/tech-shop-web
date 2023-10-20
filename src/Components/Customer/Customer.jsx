@@ -3,7 +3,7 @@
 const Customer = ({card}) => {
     const{customer_img,description,customer_name} = card;
     return (
-        <div className="border-2 border-green-600 rounded-xl gap-10 md:gap-5 lg:gap-5">
+        <div className="border-2 border-green-600 rounded-xl ">
             <div className="py-10 px-10">
                 <img className="mx-auto pb-5 relative -mt-24" src={customer_img} alt="" />
                 <p className="text-justify">{description}</p>

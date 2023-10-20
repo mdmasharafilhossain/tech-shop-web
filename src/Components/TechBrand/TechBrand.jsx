@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
 
 
 const TechBrand = ({card}) => {
     const{id,brand_name,img_brand} = card;
     return (
         <div>
+             <Link to={`/card/${id}`}>
              <div className="container mx-auto">
             <div className="bg-white shadow-xl pb-5 rounded-xl">
                <img className="mx-auto h-40" src={img_brand} alt="" /> 
@@ -12,6 +14,7 @@ const TechBrand = ({card}) => {
             </div>
 
            </div>
+             </Link>
         </div>
     );
 };

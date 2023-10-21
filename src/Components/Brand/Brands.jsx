@@ -1,14 +1,20 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import { FaRegStar } from "react-icons/fa6";
 
-const Brands = () => {
+import BrandDeatils from "../BrandDetails/BrandDeatils";
 
+const Brands = () => {
+    
     const brand = useLoaderData();
     console.log(brand);
     const { BrandName } = useParams();
     console.log(typeof (BrandName))
 
     const images = brand.filter(img => img.BrandName === BrandName);
+   
+
+    
+    
     if (images.length === 0) {
         return (
             <div className="bg-green-100 px-40 py-80">
@@ -18,7 +24,6 @@ const Brands = () => {
             </div>
         );
     }
-
     return (
         <div className="bg-green-100 ">
 
@@ -66,7 +71,11 @@ const Brands = () => {
                             <h2 className="card-title">Price: ${brandItem.Price} Only</h2>
                             <h2 className="card-title">Rating: {brandItem.Rating}<FaRegStar /></h2>
                             <div className="card-actions w-full">
-                                <button className="btn btn-primary w-full bg-green-500 hover:bg-green-600 text-white border-none">Details</button>
+                                <Link to={`Brands/${brandItem.name}`}>
+                                <button 
+                                
+                                className="btn btn-primary px-[150px] w-full bg-green-500 hover:bg-green-600 text-white border-none">Details</button>
+                                </Link>
                             </div>
                             <div className="card-actions w-full">
                                 <button className="btn btn-primary w-full bg-green-500 text-white border-none hover:bg-green-600">Update</button>
@@ -76,6 +85,7 @@ const Brands = () => {
                 ))}
 
             </div>
+         
         </div>
     );
 };

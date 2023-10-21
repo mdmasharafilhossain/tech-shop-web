@@ -16,6 +16,7 @@ import Register from './Components/Register/Register';
 import AuthProviders from './Components/AuthProviders/AuthProviders';
 import Brands from './Components/Brand/Brands';
 import NotFond from './Components/NotFound/NotFond';
+import BrandDeatils from './Components/BrandDetails/BrandDeatils';
 
 const router = createBrowserRouter([
   {
@@ -49,7 +50,12 @@ const router = createBrowserRouter([
       {
         path:"/register",
         element:<Register></Register>
-      }
+      },
+      {
+        path:"/card/:BrandName/Brands/:name",
+        element:<BrandDeatils></BrandDeatils>,
+        loader:()=>fetch('http://localhost:5000/pro')
+      },
 
     ]
   },

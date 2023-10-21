@@ -18,6 +18,7 @@ import Brands from './Components/Brand/Brands';
 import NotFond from './Components/NotFound/NotFond';
 import BrandDeatils from './Components/BrandDetails/BrandDeatils';
 import UpdateDetails from './Components/UpdateDetails/UpdateDetails';
+import PrivateRoutes from './Components/PrivateRoutes/PrivateRoutes';
 
 const router = createBrowserRouter([
   {
@@ -42,7 +43,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/addProduct",
-        element:<AddProducts></AddProducts>
+        element:<PrivateRoutes><AddProducts></AddProducts></PrivateRoutes>
       },
       {
         path:"/myCart",
@@ -54,12 +55,12 @@ const router = createBrowserRouter([
       },
       {
         path:"/card/:BrandName/Brands/:name",
-        element:<BrandDeatils></BrandDeatils>,
+        element:<PrivateRoutes><BrandDeatils></BrandDeatils></PrivateRoutes>,
         loader:()=>fetch('http://localhost:5000/pro')
       },
       {
         path:"/card/:BrandName/update/:id",
-        element:<UpdateDetails></UpdateDetails>,
+        element:<PrivateRoutes><UpdateDetails></UpdateDetails></PrivateRoutes>,
         loader:({params})=>fetch(`http://localhost:5000/pro/${params.id}`)
       }
 

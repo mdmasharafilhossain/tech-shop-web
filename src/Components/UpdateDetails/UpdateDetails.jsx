@@ -104,31 +104,10 @@ const UpdateDetails = () => {
       <label className="label">
         <span className="label-text">Rating</span>
       </label>
-      <div className="input-group lg:h-12 bg-white border">
-        <Rating 
-         style={{backgroundColor:'white'}}
-          name="rating"
-          value={rating}
-          precision={0.5} 
-         
-          onChange={handleRatingChange}
-        />
-        <span className="text-gray-500 bg-white border ml-2">
-          {rating !== null ? rating : 'No rating'}
-        </span>
-        {/* <div className="input-group">
-          <input
-            type="number"
-            step="0.5"
-            min="0"
-            max="5"
-            placeholder="Manual rating input"
-            name="rating"
-            className="input input-bordered w-full"
-            onChange={handleRatingChange}
-          />
-        </div> */}
-      </div>
+      <label className="input-group">
+                                
+                                <input type="text" placeholder="Rating" name="rating" className="input input-bordered w-full" />
+                            </label>
       
     </div>
                     </div>

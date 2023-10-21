@@ -7,8 +7,8 @@ const BrandDeatils = () => {
     
     const card = CardsInfo.find(img => img.name === name);
     return (
-        <div className="mt-60">
-           <div className="flex  mx-20 gap-20">
+        <div className="mt-[600px] lg:mt-60">
+           <div className="flex flex-col md:flex-row lg:flex-row  mx-20 gap-20">
               <div>
               <img  className="h-[550px] w-[3000px] " src={card.Image} alt="" />
               </div>

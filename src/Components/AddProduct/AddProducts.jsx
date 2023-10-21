@@ -1,7 +1,16 @@
-import Rating from 'react-rating';
+
+import { BackupRounded } from '@mui/icons-material';
+import { Rating } from '@mui/material';
+import { useState } from 'react';
+
 
 const AddProducts = () => {
-    
+    const [rating, setRating] = useState(0);
+    const handleRatingChange = (event, newRating) => {
+        if (newRating !== null) {
+          setRating(newRating);
+        }
+      };
     const handleAddProduct = e =>{
         e.preventDefault();
         const form = e.target;
@@ -30,6 +39,8 @@ const AddProducts = () => {
             console.log(data);
         })
     }
+
+    
 
 
     return (
@@ -93,14 +104,36 @@ const AddProducts = () => {
                             </label>
                         </div>
                         <div className="form-control w-3/4 md:w-1/2">
-                            <label className="label">
-                                <span className="label-text">Rating</span>
-                            </label>
-                            <label className="input-group">
-                           
-                                <input type="text" placeholder="Ratings" name="rating" className="input input-bordered w-full" />
-                            </label>
-                        </div>
+      <label className="label">
+        <span className="label-text">Rating</span>
+      </label>
+      <div className="input-group h-12 bg-white border">
+        <Rating 
+         style={{backgroundColor:'white'}}
+          name="rating"
+          value={rating}
+          precision={0.5} 
+         
+          onChange={handleRatingChange}
+        />
+        <span className="text-gray-500 bg-white border ml-2">
+          {rating !== null ? rating : 'No rating'}
+        </span>
+        {/* <div className="input-group">
+          <input
+            type="number"
+            step="0.5"
+            min="0"
+            max="5"
+            placeholder="Manual rating input"
+            name="rating"
+            className="input input-bordered w-full"
+            onChange={handleRatingChange}
+          />
+        </div> */}
+      </div>
+      
+    </div>
                     </div>
                     <div className="form-control w-full">
                             <label className="label">

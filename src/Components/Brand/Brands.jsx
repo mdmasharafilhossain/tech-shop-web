@@ -78,7 +78,9 @@ const Brands = () => {
                                 </Link>
                             </div>
                             <div className="card-actions w-full">
-                                <button className="btn btn-primary w-full bg-green-500 text-white border-none hover:bg-green-600">Update</button>
+                               <Link to={`update/${brandItem._id}`}>
+                               <button className="px-[150px] btn btn-primary w-full bg-green-500 text-white border-none hover:bg-green-600">Update</button>
+                               </Link>
                             </div>
                         </div>
                     </div>

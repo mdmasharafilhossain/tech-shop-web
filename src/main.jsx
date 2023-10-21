@@ -17,6 +17,7 @@ import AuthProviders from './Components/AuthProviders/AuthProviders';
 import Brands from './Components/Brand/Brands';
 import NotFond from './Components/NotFound/NotFond';
 import BrandDeatils from './Components/BrandDetails/BrandDeatils';
+import UpdateDetails from './Components/UpdateDetails/UpdateDetails';
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,11 @@ const router = createBrowserRouter([
         element:<BrandDeatils></BrandDeatils>,
         loader:()=>fetch('http://localhost:5000/pro')
       },
+      {
+        path:"/card/:BrandName/update/:id",
+        element:<UpdateDetails></UpdateDetails>,
+        loader:({params})=>fetch(`http://localhost:5000/pro/${params.id}`)
+      }
 
     ]
   },

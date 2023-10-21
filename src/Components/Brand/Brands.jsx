@@ -62,6 +62,7 @@ const Brands = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container mx-auto mt-16 pb-20 gap-20">
 
             {images.map((brandItem, index) => (
+                
                     <div key={index} className="card card-compact w-96 bg-base-100 shadow-xl">
                         <figure><img className="h-60 w-full" src={brandItem.Image} alt="Shoes" /></figure>
                         <div className="card-body">

@@ -34,7 +34,7 @@ const router = createBrowserRouter([
             path:"/card/:BrandName",
             element:<Brands></Brands>,
             errorElement:<NotFond></NotFond>,
-            loader:()=>fetch('http://localhost:5000/pro')
+            loader:()=>fetch('https://brand-shop-server-kliazrf7w-md-mashrafil-hossain-mahis-projects.vercel.app/pro')
             
       },
       {
@@ -56,12 +56,12 @@ const router = createBrowserRouter([
       {
         path:"/card/:BrandName/Brands/:name",
         element:<PrivateRoutes><BrandDeatils></BrandDeatils></PrivateRoutes>,
-        loader:()=>fetch('http://localhost:5000/pro')
+        loader:()=>fetch('https://brand-shop-server-kliazrf7w-md-mashrafil-hossain-mahis-projects.vercel.app/pro')
       },
       {
         path:"/card/:BrandName/update/:id",
         element:<PrivateRoutes><UpdateDetails></UpdateDetails></PrivateRoutes>,
-        loader:({params})=>fetch(`http://localhost:5000/pro/${params.id}`)
+        loader:({params})=>fetch(`https://brand-shop-server-kliazrf7w-md-mashrafil-hossain-mahis-projects.vercel.app/pro/${params.id}`)
       }
 
     ]

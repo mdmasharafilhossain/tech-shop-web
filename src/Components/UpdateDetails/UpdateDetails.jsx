@@ -27,7 +27,7 @@ const UpdateDetails = () => {
 
         // server 
 
-        fetch(`http://localhost:5000/pro/${_id}`,{
+        fetch(`https://brand-shop-server-kliazrf7w-md-mashrafil-hossain-mahis-projects.vercel.app/pro/${_id}`,{
             method: 'PUT',
             headers: {
                 'content-type' : 'application/json'

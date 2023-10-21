@@ -19,7 +19,7 @@ const AddProducts = () => {
 
         // server 
 
-        fetch('http://localhost:5000/pro',{
+        fetch('https://brand-shop-server-kliazrf7w-md-mashrafil-hossain-mahis-projects.vercel.app/pro',{
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

@@ -27,7 +27,7 @@ const Brands = () => {
     return (
         <div className="bg-green-100 ">
 
-            <div className="carousel w-full h-[800px] mt-32">
+            <div className="carousel w-full h-[800px] mt-96 md:mt-40 lg:mt-32">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src="https://i.ibb.co/gmvJHxp/apple1.png" className="w-full" />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

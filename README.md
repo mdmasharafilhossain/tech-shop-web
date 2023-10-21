@@ -1,8 +1,13 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- You can show many card with some details like image,category and category name
+- By clicking the button you can full details of the card
+- when you Login you can show the successful massage for your  entering
+- you can also see the error message to find the problem
+- After Log In you can access all sections
+- You can show our Products detail information
+- This is secure website because no one access your id
+- You can know our customer review
+- You Can add products in our database
+- You can show your photo and name in navbar section after login
